@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('../../assets/Fonts/Radomir\ Tinkov\ -\ Gilroy-Light.otf');
+}
+@font-face {
+  font-family: PTmono;
+  src: url('../../assets/Fonts/PTMono-Regular.ttf');
+}
+
+.foundation{
+  width: 1280px;
+  /* height: 650px; */
+  margin-left: 2%;
+  margin-top: 109px;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+}
+.textFoundation{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  color: #233249;
+  margin-top: 99px;
+  margin-left: 96px;
+}
+.pFoundation{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  color: #233249;
+  margin-top: 48px;
+  margin-left: 96px;
+}
+.buttonFoundation{
+  width: 193px;
+  height: 54px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #010409;
+  border: 1px solid #E79215;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-top: 49px;
+  margin-left: 96px;
+  margin-bottom: 8%;
+}
+.buttonFoundation:hover{
+  background-color: #E79215 !important;
+  color: #FFFFFF !important;
+  transition: 0.5s;
+}
+
+
+.imgFoundation{
+  width: 289.42px;
+  height: 214.94px;
+  margin-top: 185px;
+  margin-left: 82px;
+}
+.imgFoundationBack{
+  width: 289.42px;
+  height: 214.94px;
+  margin-top: -300px;
+  margin-left: 124px;
+  opacity: 0.1;
+}
+
+.iconsFoundation{
+  position: absolute;
+  width: 1070px;
+  height: 61px;
+  margin-top: 60px;
+  margin-left: 8.5%;
+}
+.timeImg{
+  margin-top: -4%;
+}
+.penImg{
+  margin-top: -4%;
+  margin-left: -10%;
+}
+.plusImg{
+  margin-top: -4%;
+  margin-left: 10%;
+}
+
+.timeText{
+  width: 77px;
+  height: 48px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 5px !important;
+  margin-left: 19px;
+  color: #233249;
+}
+
+.kursKimlarUchun{
+  margin-top: 200px;
+}
+.textKurs{
+  margin-left: 2%;
+}
+.ineryerDiv{
+  border-bottom: 1px solid #D1D5DB;
+  margin-left: 6%;
+  margin-top: 60px;
+}
+.ineryerDiv2{
+  border-bottom: 1px solid #D1D5DB;
+  margin-top: 72px;
+  margin-left: 6%;
+}
+.interyer{
+  width: 406px;
+  height: 64px;
+  left: 322px;
+  top: 1278px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.textKursP{
+  left: 16.72%;
+  right: 62.08%;
+  top: 53.62%;
+  bottom: 42.58%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #233249;
+}
+
+
+
+/* /////Mediaaa/////// */
+
+@media screen and (max-width: 992px){
+  .foundation{
+    width: 120%;
+    margin-left: -11%;
+  }
+  .foundationText{
+    margin-left: 17%;
+  }
+  .buttonFoundation{
+    margin-top: 85%;
+    margin-bottom: 8%;
+  }
+  .foundationImg{
+    margin-top: 50% !important;
+    margin-left: -51%;
+  }
+  .penCol{
+    margin-top: 10% !important;
+    margin-left: -30% !important;
+  }
+  .plusCol{
+    margin-top: 20% !important;
+    margin-left: -40%;
+  }
+  .kursKimlarUchun{
+    margin-top: 60%;
+  }
+
+  .interyerFirst{
+    width: 100% !important;
+  }
+  .interyer2Col{
+    width: 100% !important;
+  }
+}

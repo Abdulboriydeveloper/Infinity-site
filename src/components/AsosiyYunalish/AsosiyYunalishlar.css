@@ -1,0 +1,174 @@
+.wrapperForMainLine{
+    margin-top: -25%;
+}
+.mainLineBasicTheme{
+    font-style: bold;
+    font-size: 24px;
+    line-height: 100%;
+    align-items: left;
+    vertical-align: top;
+}
+.noneBorderMainLine
+{
+    border: none !important;
+}
+.mainLineCardSection{
+    margin-top: 47px;
+}
+
+.mainLineFirstCard
+{
+    width: 364px !important;
+    height:256px;
+    border-radius: 10px;
+    border: 1px solid #D1D5DB;
+    text-align: inside;
+    background-color: #FFFFFF;
+    color: #010409;
+}
+.mainLineSecondCard{
+    margin-left: 2%;
+}
+.mainLineThirdCard{
+    margin-left: 2%;
+}
+
+.mainLineFirstCard :hover
+{
+    background-color: #E79215;
+    color: #FFFFFF;
+}
+.mainLineFirstCard:hover .mainLineCourses{
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.mainLineFirstCard:hover .mainLineView
+{
+    color: #FFFFFF;
+    text-decoration-line: underline !important;
+}
+
+.mainLineProgramming
+{
+    margin-top: 40px;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 53px;
+}
+.mainLineCourses
+{
+    margin-left: 45px;
+    margin-top: -5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010409;
+    opacity: 0.6;
+}
+
+.mainLineView
+{
+    margin-left: 45px;
+    font-style: medium;
+    font-size: 22px;
+    vertical-align: top;
+    color: #3082FF;
+    cursor: pointer;
+}
+
+.mainLineView:hover
+{
+    text-decoration-line: underline !important;
+}
+
+@media screen and (max-width:6400px) {
+    .mainLineBasicTheme{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .mainLineBasicTheme{
+        margin-top: -240px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .wrapperForMainLine {
+        margin-top: 40%;
+    }
+    .asosiyYunalishRow{
+        margin-left: 20% !important;
+    }
+    .mainLineBasicTheme{
+        margin-left: -10% !important;
+        font-size: 70px;
+        margin-top: 140%;
+    }
+    .mainLineSecondCard{
+        margin-top: 10% !important;
+        margin-left: -1%;
+    }
+    .mainLineThirdCard{
+        margin-top: 10% !important;
+        margin-left: -1%;
+    }
+
+        .mainLineCourses
+    {
+        margin-left: 45px;
+        font-style: normal;
+        margin-top: 10% !important;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 22px;
+        color: #010409;
+        opacity: 0.6;
+    }
+    .mainLineView 
+    {
+        font-size: 50px !important;
+    }
+
+        .mainLineProgramming
+    {
+        margin-top: 40px;
+        margin-left: 45px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 53px;
+    }
+
+    .mainLineFirstCard
+    {
+        width: 850px !important;
+        height: 440px !important;
+        margin-left: -20% !important;
+        border-radius: 10px;
+        border: 1px solid #D1D5DB;
+        text-align: inside;
+        background-color: #FFFFFF;
+        color: #010409;
+    }
+
+    .mainLineFirstCard:hover .mainLineView
+    {
+        color: #FFFFFF !important;
+        text-decoration-line: underline !important;
+    }
+
+    .mainLineFirstCard :hover
+    {
+        background-color: #E79215 !important;
+        color: #FFFFFF !important;
+    }
+    .mainLineFirstCard:hover .mainLineCourses{
+        color: #FFFFFF !important;
+        opacity: 0.6;
+    }
+
+}

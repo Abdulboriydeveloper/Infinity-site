@@ -1,0 +1,141 @@
+.ourGallery{
+  margin-top: 100px;
+}
+.exraPadding{
+  padding-bottom: 2% !important;
+}
+
+  .cardGallery{
+    height: 360px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  .cardGallery:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    width: 95%;
+    height: 93%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.17%, #000000 103.74%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    border-radius: 10px;
+  }
+  .cardGallery1::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    width: 97% !important;
+    height: 93%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.17%, #000000 103.74%);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    border-radius: 10px;
+  }
+  .cardGallery:hover::before{
+    opacity: 1;
+  }
+  .cardGallery img{
+    width: 95%;
+    height: 93%;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+  }
+  .cardGallery .infoGalleryFirst{
+    width: 660px !important;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+  .cardGallery:hover .infoGalleryFirst{
+    opacity: 1;
+    transform: translateY(2px);
+    transform: translateX(18px);
+  }
+  .cardGallery  .infoGalleryFirstText{
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  .cardGallery .infoGallery{
+    width: 395px;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+  .cardGallery:hover .infoGallery{
+    opacity: 1;
+    transform: translateY(2px);
+    transform: translateX(18px);
+  }
+  .cardGallery .infoGallery h1{
+    margin: 0;
+  }
+  .cardGallery .infoGallery p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+.firstPicture{
+  width: 97% !important;
+}
+.secondPic{
+  width: 100%;
+}
+.thirdPic{
+  width: 100%;
+}
+.fourthPic{
+  width: 100%;
+}
+.fifthPic{
+  width: 100%;
+}
+
+
+.toGallerySize
+{
+  position: relative;
+  font-style: bold !important;
+  font-size: 24px !important;
+  line-height: 100% !important;
+  align-items: left !important;
+  vertical-align: top !important;
+}
+@media only screen and (max-width: 992px) {
+  .ourGallery{
+    width: 97%;
+    margin-left: 2%;
+  }
+  .rowGalleryCards{
+    width: 960px;
+    margin-left: -18% !important; 
+  }
+  .toGallerySize{
+    font-size: 70px !important;
+    margin-left: -15%;
+  }
+}

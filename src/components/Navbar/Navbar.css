@@ -1,0 +1,147 @@
+    .navbarHeader{
+      margin-top: 3%;
+     
+    }
+    .navbarInfinity{
+      height: 100px;
+    }
+    
+    .infinitySymbol1{
+      width: 67px;
+      height: 0px;
+    }
+    
+    .group10472{
+      margin-left: -10%;
+    }
+    
+    .infinityLogo{
+      width: 275px;
+      height: 55px;
+      margin-top: -63%;
+      margin-left: 155%;
+    }
+    
+    .coursesHeader{
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      margin-left: 130%;
+      color: #010409 !important;
+      display: inline-block;
+    }
+    .dropdownText:active{
+      background-color: #E79215 !important;
+    }
+    .headerDropdown{
+      margin-left: 90px !important;
+    }
+    .headerDropUl{
+      margin-top: 5% !important;
+      margin-left: 160%;
+    }
+    .coursesHeader > .dropdownVectorHeader{
+      position: absolute;
+      margin-left: 85% !important;
+      margin-top: -20% !important;
+      cursor: pointer;
+    }
+    
+    .aboutUsHeader{
+      width: 145px ;
+      height: 24px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      margin-left: 102%;
+      color: #010409 !important;
+      cursor: pointer;
+    }
+    .aboutUsHeaderLink{
+      width: 145px ;
+      height: 24px;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration: none;
+      color: #010409 !important;
+      cursor: pointer;
+    }
+    
+    .contactUsHeader{
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      margin-left: 245%;
+      color: #010409 !important;
+      cursor: pointer;
+    }
+    .contactUsHeaderLink{
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-decoration: none;
+      color: #010409 !important;
+      cursor: pointer;
+    }
+    
+    .applyBtnLi{
+      margin-left: 45%;
+      margin-top: -2%;
+    } 
+    .applyBtn {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+      width: 184px;
+      height: 54px;
+      background: #E79215;
+      border-radius: 4px;
+      margin-left: 15%;
+      border-style: none;
+    }
+    .applyBtn:hover {
+      color: #333333;
+      background: #FFFFFF;
+      border: 1px solid #E79215;
+      transition: 0.5s;
+    }
+    .applyBtnLink{
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+    }
+    .applyBtn:hover .applyBtnLink{
+      color: #333333 !important;
+      transition: 0.5s;
+    }
+
+    /* .............Media............. */
+
+    @media screen and (max-width: 992px){
+      .navbarHeader{
+        margin-top: -6%;
+      }
+      .headerText{
+        font-size: 35px;
+        margin-left: 3%;
+      }
+    }
